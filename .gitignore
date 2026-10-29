@@ -2,3 +2,15 @@ __pycache__/
 *.pyc
 .DS_Store
 venv/
+
+gesture_env/
+__pycache__/
+*.pt
+.DS_Store
+ar-phone/unity/Library/
+ar-phone/unity/Temp/
+ar-phone/unity/Logs/
+ar-phone/unity/obj/
+ar-phone/unity/Builds/
+ar-phone/unity/UserSettings/
+*.apk

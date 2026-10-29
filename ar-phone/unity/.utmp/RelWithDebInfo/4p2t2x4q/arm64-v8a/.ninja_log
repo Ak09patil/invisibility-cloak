@@ -1,0 +1,12 @@
+# ninja log v5
+1	89	1791606424258738291	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	55b224eb4a9d668b
+89	149	1791606424310970925	/Users/akanksha/InvisibilityAR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4p2t2x4q/obj/arm64-v8a/libswappywrapper.so	ed313be102316f6a
+0	415	1791606424582395668	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ef21489ccf7e2127
+0	419	1791606424586660058	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6d439f4a50ce6107
+0	433	1791606424600790147	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d67cffe24d5001f9
+0	439	1791606424607770628	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3afd693b9444c2ad
+0	463	1791606424631165915	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d989b4b8f8adb16b
+1	492	1791606424660058137	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	91e23d0807c4472e
+0	541	1791606424709107427	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	37f816ce7fb11d5f
+0	563	1791606424731200834	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9d06442c6ca333c1
+563	590	1791606424759184803	/Users/akanksha/InvisibilityAR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4p2t2x4q/obj/arm64-v8a/libgame.so	9d144dc2226dfd63
