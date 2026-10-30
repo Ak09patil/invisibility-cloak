@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InterviewRoom.unity
+    guid: 52c5c800538f2a84c9ea2b6cbfddc42b
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 71987d4d8d974224bb7e8dad7a86da56, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b63a524c2df8636468575f6826ed2a82, type: 2}
