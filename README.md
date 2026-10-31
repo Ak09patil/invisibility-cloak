@@ -104,15 +104,18 @@ Follow `SETUP_GUIDE.md`. In short:
 3. Build and run to a Meta Quest headset (or test in the editor with an XR simulator).
 
 ## Team contributions
-**Team 4**
-- Akanksha Patil
-- Akshaya Epuri
-- Akhila Kalle
 
-Each member's part of the work is listed below (edit to match who did what):
-- Akanksha Patil: invisibility AR (phone client + laptop server), README
-- Akshaya Epuri: TODO
-- Akhila Kalle: TODO
+**Team 4:** Akanksha Patil, Akshaya Epuri, Akhila Kuruva
+
+Work was divided equally: each member owns one part of the AR project and one part of the VR project, and presents and explains both.
+
+| Member | Project 1: Invisibility AR | Project 2: VR Interview Simulator |
+|---|---|---|
+| **Akanksha Patil** | Perception: YOLOv8 person masks, tracking, background capture (`invisibility_ar2.py`) | Interview logic: questions, scoring, results panel (`InterviewManager.cs`) |
+| **Akshaya Epuri** | Gestures and link: hand gestures, hand-to-person matching, Python-to-phone protocol (`invisibility_server.py`) | Scene and environment: interview room, interviewer, scene builder (`InterviewSceneBuilder.cs`) |
+| **Akhila Kuruva** | Unity phone app: shader, effects, camera streaming UI (`Invisibility.shader`, `InvisibilityPhone.cs`) | UI and XR: answer buttons, start button, OpenXR/XRI setup, Quest build and testing (`AnswerButton.cs`, `StartInterview.cs`) |
+
+**Shared by all three:** testing, the demo, documentation, and the final presentation.
 
 ---
 
