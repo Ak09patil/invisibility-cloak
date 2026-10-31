@@ -1,3 +1,8 @@
+# Team 4: AR/VR Course Projects
+
+This repository holds two projects: (1) a gesture-controlled invisibility AR app and (2) a VR interview simulator.
+
+# Project 1: Gesture-Controlled Multi-Person Invisibility AR
 Gesture-Controlled Multi-Person Invisibility AR (Phone Client + Laptop Server)
 A diminished-reality ("invisibility") filter. A phone app streams its own camera to a laptop server. The laptop runs the AI, and the phone shows people vanishing, each controlled by their own hand gesture, with a neon glow effect.
 
