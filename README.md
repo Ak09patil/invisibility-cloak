@@ -61,3 +61,60 @@ Credits
 
 YOLOv8 segmentation (Ultralytics) and MediaPipe Hands (Google) are used as pretrained models for inference only. Nothing was trained.
 Parts of the code were written with an AI coding assistant. The team integrated, tested and can explain the whole pipeline.
+
+---
+
+# Project 2: VR Interview Simulator (Meta Quest)
+
+A virtual reality interview practice app built in Unity for Meta Quest. The user steps into a simulated interview room, faces a virtual interviewer, and answers interview questions by pointing at and clicking answer buttons with the VR controllers. The app scores the answers, so users can rehearse in a low-pressure setting before a real interview.
+
+Built for the IVRAR (AR/VR) course.
+
+## What it does
+- Generates a virtual interview room with an interviewer and world-space UI panels (built automatically by an editor script).
+- A **START INTERVIEW** button begins the session.
+- The interviewer asks a series of questions, each with **4 answer buttons**.
+- The interview manager tracks the **score**, moves between question and result panels, and plays **audio**.
+- A results panel shows the outcome at the end.
+
+## Tech used
+- **Unity 6.3 LTS** (6000.3.x), with Android Build Support for Quest
+- **OpenXR** with **Unity OpenXR: Meta**
+- **XR Interaction Toolkit (XRI 3.x)**: ray interactors click the world-space UI, so the Meta XR All-in-One SDK is not needed
+- Works with Quest 2, 3, 3S and Pro
+- TextMesh Pro for the on-screen text
+
+## Key scripts (`Assets/Scripts`, `Assets/Editor`)
+| Script | Role |
+|---|---|
+| `InterviewManager.cs` | Questions, scoring, panels and audio |
+| `AnswerButton.cs` | The four answer buttons |
+| `StartInterview.cs` | The START INTERVIEW button |
+| `InterviewSceneBuilder.cs` (Editor) | Adds a **VR Interview** menu that builds the room, interviewer, UI and wiring in one click |
+
+## Repository layout
+- `Assets/`, `Packages/`, `ProjectSettings/` - the Unity project
+- `VRInterviewSimulator_Files/` - the original script files and `SETUP_GUIDE.md`
+- `SETUP_GUIDE.md` - full step-by-step setup for Unity and the Quest
+
+## How to run
+Follow `SETUP_GUIDE.md`. In short:
+1. Install Unity 6.3 LTS with Android Build Support (OpenJDK, Android SDK and NDK).
+2. Open the project, use the **VR Interview** menu to build the scene, and configure OpenXR with the Meta feature group.
+3. Build and run to a Meta Quest headset (or test in the editor with an XR simulator).
+
+## Team contributions
+**Team 4**
+- Akanksha Patil
+- Akshaya Epuri
+- Akhila Kalle
+
+Each member's part of the work is listed below (edit to match who did what):
+- Akanksha Patil: invisibility AR (phone client + laptop server), README
+- Akshaya Epuri: TODO
+- Akhila Kalle: TODO
+
+---
+
+# Project 1: Gesture-Controlled Invisibility AR (Phone + Laptop)
+The invisibility AR project lives in the `ar-phone/` folder. See `ar-phone/README.md` for its full description and run steps.
